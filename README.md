@@ -1,0 +1,1 @@
+This is a personal website used for displaying my development in class. It includes 3 html pages, a CSS styling page and a Javascript page with just a rudimentary pop-up to demonstrate Java functionality. 
