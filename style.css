@@ -1,8 +1,10 @@
+/*This pic is the Home page pic*/
 #self {
     border: solid 3px;
     border-radius: 5px;
     float: right;    
 }
+/*This pic is the About page pic*/
 #bike{
     border: solid 3px;
     border-radius: 5px;
@@ -10,26 +12,28 @@
     right: 0px;
     bottom: 0;    
 }
+/*this section provides the background color for the home page*/
 .firstbody {
-    background-color: lightskyblue;
+    background-color: #d9b18e;
 }
 .secondbody {
-    background-color: beige;
-    background-image: url(./Images/20211015_091116.jpg);
+    background-color: #d9d2cc;
     background-repeat: no-repeat;
     background-size: cover;
 }
+/*This section is the header with my name across the tops of all the pages*/
 h1 {
-    color: darkblue;
-    background-color: goldenrod;
+    color: #723e31;
+    background-color: #d9b18e;
     width: 75%;
     padding: 3px 3px 3px 3px;
     border: solid 5px;
     border-radius: 6px;
 }
+/*This is the mission statement formatting on the home page*/
 .mission {
-    background-color: darkblue;
-    color: goldenrod;
+    background-color: #a67564;
+    color: #723e31;
     margin: 20px;
     width: 50%;
     border: solid 5px;
@@ -39,9 +43,10 @@ h1 {
     font-size: 28px;
     font-family: fantasy;
 }
+/*This is the Quote on the first page formatting*/
 .quote {
-    color: darkblue;
-    background-color: goldenrod;
+    color: #723e31;
+    background-color: #a67564;
     border: solid 5px;
     border-radius: 6px;
     width: 10px;
@@ -50,10 +55,12 @@ h1 {
     font-size: 18px;
     font-family: cursive;
 }
+/*This is the paragraph on the about page formatting*/
 .about {
     font-family: 'Franklin Gothic Medium';
     font-size: 15.5px;
 }
+/*This is the title text to the Portfolio page*/
 .portfolio {
     color: red;
     padding: 3px 3px 3px 3px;
@@ -68,6 +75,31 @@ h1 {
     border: solid rgb(241, 56, 87)
     }
     .thirdbody {
-        background-image: url(./Images/umbrellas.jpg);
-        background-size: cover;
+        background-color: #d9b18e;
     }
+/*This is the formatting for the paragraphs on the Portfolio page*/
+.portpara {
+    color: black;
+    background-color: #d9b18e;
+    padding: 3px 3px 3px 3px;
+    position: relative; 
+    width: calc(100% - 6em);
+    text-indent: 40px;
+}
+/*This section provides the formatting for the paragraph titles and text color on the porfolio page*/
+#title1 {
+    color: black;
+    background-color: #d9b18e;
+    padding: 1px;
+    position: relative; 
+    width: calc(100% - 4em);
+}
+/*This section provides the formatting of the images on the portfolio page*/
+#pics {
+    border: solid 5px black;
+    border-radius: 4px;
+}
+/*This section provides the formatting for the paragraphs with pictures on the portfolio page*/
+.container {
+    display: flex;
+}
