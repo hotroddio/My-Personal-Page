@@ -60,7 +60,7 @@ h1 {
     font-family: 'Franklin Gothic Medium';
     font-size: 15.5px;
 }
-
+/*This is the title text to the Portfolio page*/
 .portfolio {
     color: red;
     padding: 3px 3px 3px 3px;
@@ -76,7 +76,6 @@ h1 {
     }
     .thirdbody {
         background-color: #d9b18e;
-        background-size: cover;
     }
 /*This is the formatting for the paragraphs on the Portfolio page*/
 .portpara {
@@ -87,6 +86,7 @@ h1 {
     width: calc(100% - 6em);
     text-indent: 40px;
 }
+/*This section provides the formatting for the paragraph titles and text color on the porfolio page*/
 #title1 {
     color: black;
     background-color: #d9b18e;
@@ -94,10 +94,12 @@ h1 {
     position: relative; 
     width: calc(100% - 4em);
 }
+/*This section provides the formatting of the images on the portfolio page*/
 #pics {
     border: solid 5px black;
     border-radius: 4px;
 }
+/*This section provides the formatting for the paragraphs with pictures on the portfolio page*/
 .container {
     display: flex;
 }
