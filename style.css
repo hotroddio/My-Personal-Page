@@ -142,5 +142,28 @@ h1 {
 
   /*This is the basic formatting for the body of the Contact Page*/
   .fourthbody {
-    background-color: lightblue;
+    background-color: lightslategray;
   }
+/*This section is for the header formatting for the Contact Page*/
+#contactheader {
+    margin: auto;
+    width: 50%;
+    border: 3px solid darkslategrey;
+    padding: 10px;
+    text-align: center;
+    background-color: gray;
+}
+
+/*This is the formatting for the Footer on the contact page*/
+#footer {
+    background-color: aqua;
+    height: 75px;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0 12px -2px black;
+}
