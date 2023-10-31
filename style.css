@@ -60,6 +60,11 @@ h1 {
     font-family: 'Franklin Gothic Medium';
     font-size: 15.5px;
 }
+
+section {
+    border-top: 1px solid brown;
+    background-color: #d9b18e;
+}
 /*This is the title text to the Portfolio page*/
 .portfolio {
     color: red;
@@ -155,7 +160,7 @@ h1 {
 }
 
 /*This is the formatting for the Footer on the contact page*/
-#footer {
+footer {
     background-color: aqua;
     height: 75px;
     padding: 10px;
@@ -166,4 +171,26 @@ h1 {
     width: 100%;
     text-align: center;
     box-shadow: 0 0 12px -2px black;
+}
+
+footer a {
+    margin: 30px;
+}
+
+footer .media-link {
+    height: 45px;
+}
+
+nav {
+    box-shadow: 0 0 12px -2px black;
+    position: fixed;
+    left: 0;
+    right: 0;
+    align-items: center;
+    background-color: beige;
+    color: black;
+    display: flex;
+    height: 80px;
+    padding: 10px;
+    justify-content: space-between;
 }
