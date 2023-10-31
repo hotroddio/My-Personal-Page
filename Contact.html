@@ -6,21 +6,30 @@
     <link rel="stylesheet" href="style.css">
     <title>Contact Page</title>
 </head>
-<body>
-    <h1 id="contactheader">Please fill out information below to reach me</h1>
-    <form>
+<body class="fourthbody">
+    <nav>
+        <div>
+            <h1>John Rodriguez</h1>
+        </div>
+        <div id="links">
+            <a href="Home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a class="active" href="Contact.html">Portfolio</a>
+        </div>
+    <h2 id="contactheader">Please fill out information below to reach me</h2>
         <form class="form-inline" action="./thankyou.html">
             <label for="First name">First name:</label>
             <input type="text" value="" id="name">
             <label for="First name">Last name:</label>
             <input type="text" value="" id="name">
             <label for="First name">Email Address:</label>
-            <input type="email" value="" id="email"><br>            
-            <a href="./Submission.html"><input type="submit"></a>
-            <input type="reset"></a>
+            <input type="email" value="" id="email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" row="6" cols="50"></textarea>
+            <button type="submit">Submit<button>
         </form>
-    </form>
 
-    Please Click Below For Further Information or Future Collaboration
+<h2>Please Click Below For Further Information or Future Collaboration</h2>
 </body>
 </html>
