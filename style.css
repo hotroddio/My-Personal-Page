@@ -2,7 +2,9 @@
 #self {
     border: solid 3px;
     border-radius: 5px;
-    float: right;    
+    float: right;
+    position: relative;
+    top: 155px;   
 }
 /*This pic is the About page pic*/
 #bike{
@@ -35,13 +37,15 @@ h1 {
     background-color: #a67564;
     color: #723e31;
     margin: 20px;
-    width: 50%;
+    width: 45%;
     border: solid 5px;
     border-radius: 6px;
     padding: 3px 3px 3px 3px;
     text-justify: auto;
     font-size: 28px;
     font-family: fantasy;
+    position: relative;
+    top: 110px;
 }
 /*This is the Quote on the first page formatting*/
 .quote {
@@ -52,13 +56,19 @@ h1 {
     width: 10px;
     padding: 3px 3px 3px 3px;
     text-shadow: 1px 1px 1px black;
-    font-size: 18px;
+    font-size: 25px;
     font-family: cursive;
+    position: relative;
+    top: 400px;
 }
 /*This is the paragraph on the about page formatting*/
 .about {
     font-family: 'Franklin Gothic Medium';
     font-size: 15.5px;
+    position: relative;
+    top: 115px;
+    font-size: 30px;
+
 }
 
 section {
@@ -78,6 +88,8 @@ section {
     background-color: blue;
     border-radius: 6px;
     border: solid rgb(241, 56, 87)
+    position: relative;
+    top: 115px;
     }
     .thirdbody {
         background-color: #d9b18e;
@@ -90,6 +102,9 @@ section {
     position: relative; 
     width: calc(100% - 6em);
     text-indent: 40px;
+    position: relative;
+    top: 15px;
+    font-size: 20px;
 }
 /*This section provides the formatting for the paragraph titles and text color on the porfolio page*/
 #title1 {
@@ -98,6 +113,8 @@ section {
     padding: 1px;
     position: relative; 
     width: calc(100% - 4em);
+    position: relative;
+    top: 115px;
 }
 /*This section provides the formatting of the images on the portfolio page*/
 #pics {
@@ -107,6 +124,8 @@ section {
 /*This section provides the formatting for the paragraphs with pictures on the portfolio page*/
 .container {
     display: flex;
+    position: relative;
+    top: 115px;
 }
 /*This is for the Contact page form formatting*/
 /* Style the form - display items horizontally */
@@ -115,6 +134,9 @@ section {
     flex-direction: column;
     align-items: left;
     max-width: 400px;
+    position: relative; 
+    top: 110px;
+    margin: 0% 25% 35% 25%;
   }
   
   /* Add some margins for each label */
@@ -157,6 +179,8 @@ section {
     padding: 10px;
     text-align: center;
     background-color: gray;
+    position: relative;
+    top: 105px
 }
 
 /*This is the formatting for the Footer on the contact page*/
@@ -193,4 +217,5 @@ nav {
     height: 80px;
     padding: 10px;
     justify-content: space-between;
+    z-index: 1;
 }
